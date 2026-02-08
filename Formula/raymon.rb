@@ -13,22 +13,22 @@ class Raymon < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/bnomei/raymon/releases/download/v#{version}/raymon-rs-v#{version}-aarch64-apple-darwin.tar.gz"
+      url "https://github.com/bnomei/raymon/releases/download/v#{version}/raymon-v#{version}-aarch64-apple-darwin.tar.gz"
       sha256 checksums[:aarch64_apple_darwin]
     end
     on_intel do
-      url "https://github.com/bnomei/raymon/releases/download/v#{version}/raymon-rs-v#{version}-x86_64-apple-darwin.tar.gz"
+      url "https://github.com/bnomei/raymon/releases/download/v#{version}/raymon-v#{version}-x86_64-apple-darwin.tar.gz"
       sha256 checksums[:x86_64_apple_darwin]
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/bnomei/raymon/releases/download/v#{version}/raymon-rs-v#{version}-aarch64-unknown-linux-musl.tar.gz"
+      url "https://github.com/bnomei/raymon/releases/download/v#{version}/raymon-v#{version}-aarch64-unknown-linux-musl.tar.gz"
       sha256 checksums[:aarch64_unknown_linux_musl]
     end
     on_intel do
-      url "https://github.com/bnomei/raymon/releases/download/v#{version}/raymon-rs-v#{version}-x86_64-unknown-linux-musl.tar.gz"
+      url "https://github.com/bnomei/raymon/releases/download/v#{version}/raymon-v#{version}-x86_64-unknown-linux-musl.tar.gz"
       sha256 checksums[:x86_64_unknown_linux_musl]
     end
   end
