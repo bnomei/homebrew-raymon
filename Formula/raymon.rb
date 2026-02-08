@@ -1,4 +1,4 @@
-class TmuxMcpRs < Formula
+class Raymon < Formula
   desc "Raymon"
   homepage "https://github.com/bnomei/raymon"
   version "0.1.0"
