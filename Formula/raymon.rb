@@ -1,5 +1,5 @@
 class Raymon < Formula
-  desc "Raymon"
+  desc "Stateful MCP server and TUI for Ray-style logs"
   homepage "https://github.com/bnomei/raymon"
   version "0.1.0"
   license "MIT"
