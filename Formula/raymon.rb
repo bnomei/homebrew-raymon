@@ -1,14 +1,14 @@
 class Raymon < Formula
   desc "Stateful MCP server and TUI for Ray-style logs"
   homepage "https://github.com/bnomei/raymon"
-  version "0.6.0"
+  version "0.7.0"
   license "MIT"
 
   checksums = {
-    aarch64_apple_darwin: "af0a339afc65785d7da5bf5c736224089cb619c63386126d3418f4d9a462ab2e",
-    x86_64_apple_darwin: "3ed684b1bb913a875d803cdea6110f7355334d752bf4e89f09decf5bb9c50dee",
-    aarch64_unknown_linux_musl: "7838aeef3a08dae2d1c94475beaa75487f4bbd66e9e9b2e48bd0daf17538dd30",
-    x86_64_unknown_linux_musl: "4b75baee3c784baba0b906c19bf9bb875f23810c3e13548bfa039c988235334f",
+    aarch64_apple_darwin: "b17a05ac6cb162936b17d97ae4801c14a95d64d516d9339140e41cf4485d4c9a",
+    x86_64_apple_darwin: "d972c5d0d736f8e23b52cd80755c6ce4d728c859cb610f987795e4a416dc72dd",
+    aarch64_unknown_linux_musl: "fc8b0f5318da201fc6cef6f387e212511db64cf3764fd82c65f99e25cf80f3eb",
+    x86_64_unknown_linux_musl: "bee12d3e2bf1b22237ac9f1babfa8e081b0448755fd03b40c512d02fdb3126b8",
   }
 
   on_macos do
